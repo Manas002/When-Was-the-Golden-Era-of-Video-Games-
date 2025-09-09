@@ -46,7 +46,7 @@ Average score of all the games ratings for the year	float
 
 
 **-- Ten best_selling_games :**
-select * 
+select *
 from game_sales 
 order by games_sold desc
 limit 10
